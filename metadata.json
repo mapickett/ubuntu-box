@@ -1,0 +1,19 @@
+{
+    "name": "mapickett/ubuntu-box",
+    "description": "This box contains the latest Ubuntu LTS release with updated VB Guest Additions.",
+    "versions": [
+      {
+        "version": "0.0.1",
+        "providers": [
+          {
+            "name": "virtualbox",
+            "url": "./base.box",
+            "checksum_type": "sha1",
+            "checksum": "1c3c76c674b0d5d19a943a974f9dfa55b9063b16",
+            "architecture": "amd64",
+            "default_architecture": true
+          }
+        ]
+      }
+    ]
+}
