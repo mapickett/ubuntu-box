@@ -1,6 +1,6 @@
-# VirtualBox RHEL9 Base Box
+# VirtualBox Ubuntu Base Box
 
-RHEL9 Vagrant base box for VirtualBox.
+Updated Ubuntu base box for VirtualBox.
 
 
 - Documentation: [https://developer.hashicorp.com/vagrant/docs](https://developer.hashicorp.com/vagrant/docs)
@@ -41,9 +41,9 @@ Update metadata.json with the new hash and increment version if desired.
 Confirm the addition with `vagrant box list`
 
 ```
-PS C:\vagrant\basebox> vagrant box list
-generic/rhel9     (virtualbox, 4.3.12, (amd64))
-mapickett77/rhel9 (virtualbox, 0.0.1, (amd64))
+PS C:\Users\mapic\ubuntu-box> vagrant box list
+mapickett/ubuntu-box (virtualbox, 0.0.1, (amd64))
+ubuntu/jammy64       (virtualbox, 20241002.0.0)
 ```
 
 
