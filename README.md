@@ -15,11 +15,9 @@ Leverages [generic/rhel9](https://portal.cloud.hashicorp.com/vagrant/discover/ge
 
 `vagrant up`
 
-### Upgrade Guest Additions
+### Customize
 
-Open the VirtualBox Manager GUI, "Show" the basebox vm, upgrade the guest additions and restart the vm.
-
-![image info](./images/upgrade_ga.jpg)
+Make any needed customizations in VirtualBox.
 
 ### Packaging the box
 
