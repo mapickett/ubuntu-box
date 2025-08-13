@@ -39,7 +39,7 @@ Update metadata.json with the new hash and increment version if desired.
 Confirm the addition with `vagrant box list`
 
 ```
-C:\ubuntu-box> vagrant box list
+C:\vagrant\ubuntu-box> vagrant box list
 mapickett/ubuntu-box (virtualbox, 0.0.1, (amd64))
 ubuntu/jammy64       (virtualbox, 20241002.0.0)
 ```
